@@ -11,7 +11,7 @@ public class Conexao {
 
     private static final String USER = "root";
 
-    private static final String PASS = "Carabina20!$";
+    private static final String PASS = "senha";
 
     public static Connection conectar() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASS);
